@@ -635,7 +635,8 @@
                         <h2>
                             Help block
                         </h2>
-                        <input type="text" /><span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+                        <input type="text" /><span class="help-block">A longer block of help text that breaks
+                            onto a new line and may extend beyond one line.</span>
                     </div>
                     <!--/span-->
                 </div>
@@ -660,33 +661,194 @@
                             Validation states
                         </h2>
                         <div class="control-group warning">
-                          <label class="control-label" for="inputWarning">Input with warning</label>
-                          <div class="controls">
-                            <input type="text" id="inputWarning" />
-                            <span class="help-inline">Something may have gone wrong</span>
-                          </div>
-                        </div> 
-                        <div class="control-group error">
-                          <label class="control-label" for="inputError">Input with error</label>
-                          <div class="controls">
-                            <input type="text" id="inputError" />
-                            <span class="help-inline">Please correct the error</span>
-                          </div>
-                        </div> 
-                        <div class="control-group info">
-                          <label class="control-label" for="inputInfo">Input with info</label>
-                          <div class="controls">
-                            <input type="text" id="inputInfo" />
-                            <span class="help-inline">Username is already taken</span>
-                          </div>
-                        </div> 
-                        <div class="control-group success">
-                          <label class="control-label" for="inputSuccess">Input with success</label>
-                          <div class="controls">
-                            <input type="text" id="inputSuccess" />
-                            <span class="help-inline">Woohoo!</span>
-                          </div>
+                            <label class="control-label" for="inputWarning">
+                                Input with warning</label>
+                            <div class="controls">
+                                <input type="text" id="inputWarning" />
+                                <span class="help-inline">Something may have gone wrong</span>
+                            </div>
                         </div>
+                        <div class="control-group error">
+                            <label class="control-label" for="inputError">
+                                Input with error</label>
+                            <div class="controls">
+                                <input type="text" id="inputError" />
+                                <span class="help-inline">Please correct the error</span>
+                            </div>
+                        </div>
+                        <div class="control-group info">
+                            <label class="control-label" for="inputInfo">
+                                Input with info</label>
+                            <div class="controls">
+                                <input type="text" id="inputInfo" />
+                                <span class="help-inline">Username is already taken</span>
+                            </div>
+                        </div>
+                        <div class="control-group success">
+                            <label class="control-label" for="inputSuccess">
+                                Input with success</label>
+                            <div class="controls">
+                                <input type="text" id="inputSuccess" />
+                                <span class="help-inline">Woohoo!</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h2>
+                            Button status
+                        </h2>
+                        <input type="button" class="btn" value="Save" />
+                        <input type="button" class="btn btn-primary" value="Primary" />
+                        <input type="button" class="btn btn-info" value="Info" />
+                        <input type="button" class="btn btn-success" value="Success" />
+                        <input type="button" class="btn btn-danger" value="Danger" />
+                        <input type="button" class="btn btn-inverse" value="Inverse" />
+                        <input type="button" class="btn btn-link" value="Link" />
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                            Button size
+                        </h2>
+                        <input type="button" class="btn btn-large" value="Large" />
+                        <input type="button" class="btn" value="Default" />
+                        <input type="button" class="btn btn-small" value="Small" />
+                        <input type="button" class="btn btn-mini" value="Mini" />
+                        <input type="button" class="btn btn-block" value="Block" />
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                            Button disabled
+                        </h2>
+                        <input type="button" class="btn disabled" value="Hello" />
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h2>
+                            Button with <code>&lt;a&gt;</code><code>&lt;button&gt;</code><code>&lt;input&gt;</code>
+                        </h2>
+                        <a href="#" class="btn">Link</a>
+                        <button class="btn" type="button">
+                            Button</button>
+                        <input type="button" class="btn" value="Input" />
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                            Image
+                        </h2>
+                        <img src="images/img.jpg" class="img-circle" />
+                        <img src="images/img.jpg" class="img-rounded" />
+                        <img src="images/img.jpg" class="img-polaroid" />
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                            Icon
+                        </h2>
+                        <div class="btn-toolbar">
+                            <div class="btn-group">
+                                <a class="btn" href="#"><i class="icon-align-left"></i></a><a class="btn" href="#"><i
+                                    class="icon-align-center"></i></a><a class="btn" href="#"><i class="icon-align-right">
+                                    </i></a><a class="btn" href="#"><i class="icon-align-justify"></i></a>
+                            </div>
+                            <div class="btn-group">
+                                <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i>用户</a> <a
+                                    class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret">
+                                    </span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><i class="icon-pencil"></i>编辑</a></li>
+                                    <li><a href="#"><i class="icon-trash"></i>删除</a></li>
+                                    <li><a href="#"><i class="icon-ban-circle"></i>禁止</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#"><i class="i"></i>编辑</a></li>
+                                </ul>
+                            </div>
+                            <a class="btn btn-large" href="#"><i class="icon-star"></i>星星</a> <a class="btn btn-small"
+                                href="#"><i class="icon-star"></i>星星</a> <a class="btn btn-mini" href="#"><i class="icon-star">
+                                </i>星星</a>
+                            <div class="control-group">
+                                <label class="control-label" for="inputIcon">
+                                    邮箱地址</label>
+                                <div class="controls">
+                                    <div class="input-prepend">
+                                        <span class="add-on"><i class="icon-envelope"></i></span>
+                                        <input class="span7" id="inputIcon" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h2>
+                            Nav
+                        </h2>
+                        <div class="well-small">
+                            <ul class="nav nav-list">
+                                <li class="active"><a href="#"><i class="icon-home icon-white"></i>首页</a></li>
+                                <li><a href="#"><i class="icon-book"></i>库</a></li>
+                                <li><a href="#"><i class="icon-pencil"></i>应用程序</a></li>
+                                <li><a href="#"><i class="i"></i>其他</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span4">
+                        <h2>
+                        </h2>
                     </div>
                     <!--/span-->
                 </div>
