@@ -51,6 +51,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap3\css\bootstrap-theme.css" />
+    <Content Include="bootstrap3\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap3\css\bootstrap.css" />
+    <Content Include="bootstrap3\css\bootstrap.min.css" />
+    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap3\js\bootstrap.js" />
+    <Content Include="bootstrap3\js\bootstrap.min.js" />
     <Content Include="bootstrap\css\bootstrap-responsive.css" />
     <Content Include="bootstrap\css\bootstrap-responsive.min.css" />
     <Content Include="bootstrap\css\bootstrap.css" />
@@ -60,6 +67,7 @@
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="Default.aspx" />
+    <Content Include="DefaultV3.aspx" />
     <Content Include="images\img.jpg" />
     <Content Include="Scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -80,10 +88,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DefaultV3.aspx.cs">
+      <DependentUpon>DefaultV3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultV3.aspx.designer.cs">
+      <DependentUpon>DefaultV3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="bootstrap3\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="bootstrap3\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="bootstrap3\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup />
