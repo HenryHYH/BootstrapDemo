@@ -77,7 +77,7 @@
                         it as a starting point to create something more unique.</p>
                 </div>
                 <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Class lead</h2>
                         <p class="lead">
@@ -87,7 +87,7 @@
                         </p>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Element small</h2>
                         <p>
@@ -97,7 +97,10 @@
                         </p>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Element strong</h2>
                         <p>
@@ -107,10 +110,7 @@
                         </p>
                     </div>
                     <!--/span-->
-                </div>
-                <!--/row-->
-                <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Element italic</h2>
                         <p>
@@ -120,7 +120,10 @@
                         </p>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Class Text-align</h2>
                         <p class="text-left">
@@ -140,7 +143,7 @@
                         </p>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Class Emphasis</h2>
                         <p class="muted">
@@ -158,7 +161,7 @@
                 </div>
                 <!--/row-->
                 <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Abbr
                         </h2>
@@ -178,7 +181,7 @@
                         </p>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Address
                         </h2>
@@ -194,7 +197,10 @@
                         </address>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Blockquotes
                         </h2>
@@ -210,10 +216,7 @@
                             <small>Someone famous <cite title="Source Title">Source Title</cite></small></blockquote>
                     </div>
                     <!--/span-->
-                </div>
-                <!--/row-->
-                <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             UL
                         </h2>
@@ -242,7 +245,10 @@
                         </ul>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             OL
                         </h2>
@@ -271,7 +277,7 @@
                         </ol>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Dt
                         </h2>
@@ -288,7 +294,7 @@
                 </div>
                 <!--/row-->
                 <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Dt horizontal
                         </h2>
@@ -302,7 +308,7 @@
                         </dl>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Code inline
                         </h2>
@@ -314,7 +320,10 @@
                         </p>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Code block
                         </h2>
@@ -329,10 +338,7 @@
 <br /></pre>
                     </div>
                     <!--/span-->
-                </div>
-                <!--/row-->
-                <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Table
                         </h2>
@@ -401,7 +407,10 @@
                         </table>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Default form
                         </h2>
@@ -421,7 +430,7 @@
                         </form>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Search form
                         </h2>
@@ -434,7 +443,7 @@
                 </div>
                 <!--/row-->
                 <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Form inline
                         </h2>
@@ -445,7 +454,7 @@
                         </form>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Form horizontal
                         </h2>
@@ -476,59 +485,59 @@
                         </form>
                     </div>
                     <!--/span-->
-                    <div class="span4">
-                        <h2>
-                            HTML Element
-                        </h2>
-                        <form>
-                        <input type="text" placeholder="Hello world" />
-                        <textarea rows="3"></textarea>
-                        <label class="checkbox">
-                            <input type="checkbox" value="" />
-                            Option one is this and that—be sure to include why it's great
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="checked" />
-                            Option one is this and that—be sure to include why it's great
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
-                            Option two can be something else and selecting it will deselect option one
-                        </label>
-                        <label class="checkbox inline">
-                            <input type="checkbox" id="inlineCheckbox1" value="option1">
-                            1
-                        </label>
-                        <label class="checkbox inline">
-                            <input type="checkbox" id="inlineCheckbox2" value="option2">
-                            2
-                        </label>
-                        <label class="checkbox inline">
-                            <input type="checkbox" id="inlineCheckbox3" value="option3">
-                            3
-                        </label>
-                        <br />
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                        <select multiple="multiple">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                        </form>
-                    </div>
-                    <!--/span-->
                 </div>
                 <!--/row-->
                 <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
+                        <h2>
+                            HTML Element
+                        </h2>
+                        <form class="form-horizontal">
+                            <input type="text" placeholder="Hello world" />
+                            <textarea rows="3" cols="5"></textarea>
+                            <label class="checkbox">
+                                <input type="checkbox" value="" />
+                                Option one is this and that—be sure to include why it's great
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="checked" />
+                                Option one is this and that—be sure to include why it's great
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
+                                Option two can be something else and selecting it will deselect option one
+                            </label>
+                            <label class="checkbox inline">
+                                <input type="checkbox" id="inlineCheckbox1" value="option1">
+                                1
+                            </label>
+                            <label class="checkbox inline">
+                                <input type="checkbox" id="inlineCheckbox2" value="option2">
+                                2
+                            </label>
+                            <label class="checkbox inline">
+                                <input type="checkbox" id="inlineCheckbox3" value="option3">
+                                3
+                            </label>
+                            <br />
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <select multiple="multiple">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </form>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
                         <h2>
                             prepend & append
                         </h2>
@@ -539,7 +548,10 @@
                         </div>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Append button
                         </h2>
@@ -552,7 +564,7 @@
                         </div>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Append dropdown
                         </h2>
@@ -574,7 +586,7 @@
                 </div>
                 <!--/row-->
                 <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Append search
                         </h2>
@@ -587,7 +599,7 @@
                         </form>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Input size
                         </h2>
@@ -602,17 +614,17 @@
                         <input class="span4" type="text" placeholder=".span4" />
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Uneditable
                         </h2>
                         <span class="input-medium uneditable-input">Some value here</span>
                     </div>
                     <!--/span-->
-                </div>
-                <!--/row-->
-                <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Form action
                         </h2>
@@ -624,14 +636,17 @@
                         </div>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Help inline
                         </h2>
                         <input type="text" /><span class="help-inline">Inline help text</span>
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Help block
                         </h2>
@@ -642,21 +657,24 @@
                 </div>
                 <!--/row-->
                 <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Required
                         </h2>
                         <input class="span6" type="email" required placeholder="a@a.com" />
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Disable
                         </h2>
                         <input class="span6" type="email" disabled placeholder="a@a.com" />
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Validation states
                         </h2>
@@ -694,10 +712,7 @@
                         </div>
                     </div>
                     <!--/span-->
-                </div>
-                <!--/row-->
-                <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Button status
                         </h2>
@@ -710,7 +725,10 @@
                         <input type="button" class="btn btn-link" value="Link" />
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Button size
                         </h2>
@@ -721,7 +739,7 @@
                         <input type="button" class="btn btn-block" value="Block" />
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Button disabled
                         </h2>
@@ -731,7 +749,7 @@
                 </div>
                 <!--/row-->
                 <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Button with <code>&lt;a&gt;</code><code>&lt;button&gt;</code><code>&lt;input&gt;</code>
                         </h2>
@@ -741,7 +759,7 @@
                         <input type="button" class="btn" value="Input" />
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Image
                         </h2>
@@ -750,7 +768,10 @@
                         <img src="images/img.jpg" class="img-polaroid" />
                     </div>
                     <!--/span-->
-                    <div class="span4">
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
                         <h2>
                             Icon
                         </h2>
@@ -788,10 +809,7 @@
                         </div>
                     </div>
                     <!--/span-->
-                </div>
-                <!--/row-->
-                <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                             Nav
                         </h2>
@@ -805,66 +823,15 @@
                         </div>
                     </div>
                     <!--/span-->
-                    <div class="span4">
-                        <h2>
-                        </h2>
-                    </div>
-                    <!--/span-->
-                    <div class="span4">
-                        <h2>
-                        </h2>
-                    </div>
-                    <!--/span-->
                 </div>
                 <!--/row-->
                 <div class="row-fluid">
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                         </h2>
                     </div>
                     <!--/span-->
-                    <div class="span4">
-                        <h2>
-                        </h2>
-                    </div>
-                    <!--/span-->
-                    <div class="span4">
-                        <h2>
-                        </h2>
-                    </div>
-                    <!--/span-->
-                </div>
-                <!--/row-->
-                <div class="row-fluid">
-                    <div class="span4">
-                        <h2>
-                        </h2>
-                    </div>
-                    <!--/span-->
-                    <div class="span4">
-                        <h2>
-                        </h2>
-                    </div>
-                    <!--/span-->
-                    <div class="span4">
-                        <h2>
-                        </h2>
-                    </div>
-                    <!--/span-->
-                </div>
-                <!--/row-->
-                <div class="row-fluid">
-                    <div class="span4">
-                        <h2>
-                        </h2>
-                    </div>
-                    <!--/span-->
-                    <div class="span4">
-                        <h2>
-                        </h2>
-                    </div>
-                    <!--/span-->
-                    <div class="span4">
+                    <div class="span6">
                         <h2>
                         </h2>
                     </div>
