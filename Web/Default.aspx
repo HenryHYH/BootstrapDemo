@@ -493,47 +493,47 @@
                             HTML Element
                         </h2>
                         <form class="form-horizontal">
-                            <input type="text" placeholder="Hello world" />
-                            <textarea rows="3" cols="5"></textarea>
-                            <label class="checkbox">
-                                <input type="checkbox" value="" />
-                                Option one is this and that—be sure to include why it's great
-                            </label>
-                            <label class="radio">
-                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="checked" />
-                                Option one is this and that—be sure to include why it's great
-                            </label>
-                            <label class="radio">
-                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
-                                Option two can be something else and selecting it will deselect option one
-                            </label>
-                            <label class="checkbox inline">
-                                <input type="checkbox" id="inlineCheckbox1" value="option1">
-                                1
-                            </label>
-                            <label class="checkbox inline">
-                                <input type="checkbox" id="inlineCheckbox2" value="option2">
-                                2
-                            </label>
-                            <label class="checkbox inline">
-                                <input type="checkbox" id="inlineCheckbox3" value="option3">
-                                3
-                            </label>
-                            <br />
-                            <select>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                            <select multiple="multiple">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                        <input type="text" placeholder="Hello world" />
+                        <textarea rows="3" cols="5"></textarea>
+                        <label class="checkbox">
+                            <input type="checkbox" value="" />
+                            Option one is this and that—be sure to include why it's great
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="checked" />
+                            Option one is this and that—be sure to include why it's great
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
+                            Option two can be something else and selecting it will deselect option one
+                        </label>
+                        <label class="checkbox inline">
+                            <input type="checkbox" id="inlineCheckbox1" value="option1">
+                            1
+                        </label>
+                        <label class="checkbox inline">
+                            <input type="checkbox" id="inlineCheckbox2" value="option2">
+                            2
+                        </label>
+                        <label class="checkbox inline">
+                            <input type="checkbox" id="inlineCheckbox3" value="option3">
+                            3
+                        </label>
+                        <br />
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <select multiple="multiple">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
                         </form>
                     </div>
                     <!--/span-->
@@ -821,6 +821,372 @@
                                 <li><a href="#"><i class="i"></i>其他</a></li>
                             </ul>
                         </div>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                            Dropdown
+                        </h2>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle" data-toggle="dropdown">
+                                Action <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Actoin A</a></li>
+                                <li><a href="#">Action B</a></li>
+                                <li><a href="#">Action C</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                            Dropdown pull right
+                        </h2>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle" data-toggle="dropdown">
+                                Action <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Actoin A</a></li>
+                                <li><a href="#">Action B</a></li>
+                                <li><a href="#">Action C</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                            Dropdown disabled
+                        </h2>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle" data-toggle="dropdown">
+                                Action <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Actoin A</a></li>
+                                <li class="disabled"><a href="#">Action B</a></li>
+                                <li><a href="#">Action C</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                            Dropdown submenu
+                        </h2>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle" data-toggle="dropdown">
+                                Action <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Actoin A</a></li>
+                                <li><a href="#">Action B</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-submenu"><a href="#">Action C</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action C1</a></li>
+                                        <li><a href="#">Action C2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle" data-toggle="dropdown">
+                                Action <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu dropup">
+                                <li><a href="#">Actoin A</a></li>
+                                <li><a href="#">Action B</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-submenu"><a href="#">Action C</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action C1</a></li>
+                                        <li><a href="#">Action C2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                            Button group
+                        </h2>
+                        <div class="btn-group">
+                            <button class="btn">
+                                左</button>
+                            <button class="btn">
+                                中</button>
+                            <button class="btn">
+                                右</button>
+                        </div>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                            Button group multi
+                        </h2>
+                        <div class="btn-toolbar">
+                            <div class="btn-group">
+                                <button class="btn">
+                                    左</button>
+                                <button class="btn">
+                                    中</button>
+                                <button class="btn">
+                                    右</button>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn">
+                                    左</button>
+                                <button class="btn">
+                                    中</button>
+                                <button class="btn">
+                                    右</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                            Button group multi
+                        </h2>
+                        <div class="btn-toolbar">
+                            <div class="btn-group btn-group-vertical">
+                                <button class="btn">
+                                    <i class="icon-align-left"></i>
+                                </button>
+                                <button class="btn">
+                                    <i class="icon-align-center"></i>
+                                </button>
+                                <button class="btn">
+                                    <i class="icon-align-right"></i>
+                                </button>
+                                <button class="btn">
+                                    <i class="icon-align-justify"></i>
+                                </button>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn">
+                                    左</button>
+                                <button class="btn">
+                                    中</button>
+                                <button class="btn">
+                                    右</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2>
+                        </h2>
+                    </div>
+                    <!--/span-->
+                    <div class="span6">
+                        <h2>
+                        </h2>
                     </div>
                     <!--/span-->
                 </div>
