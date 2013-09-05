@@ -58,272 +58,517 @@
     <!--/.jumbotron-->
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h2>
-                    Nav
-                </h2>
-                <ul class="nav nav-tabs">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Messages</a></li>
-                </ul>
-            </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                    Nav pill
-                </h2>
-                <ul class="nav nav-pills">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Messages</a></li>
-                </ul>
-            </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                    Nav pill stack
-                </h2>
-                <ul class="nav nav-pills nav-stacked">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Messages</a></li>
-                </ul>
-            </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                    Nav justify
-                </h2>
-                <ul class="nav nav-tabs nav-justified">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Messages</a></li>
-                </ul>
-                <ul class="nav nav-pills nav-justified">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Messages</a></li>
-                </ul>
-            </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                    Nav dropdown
-                </h2>
-                <ul class="nav nav-tabs">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <span class="caret">
-                    </span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!--/.col-md-6-->
-            <div class="col-md-11">
-                <h2>
-                    Navbar
-                </h2>
-                <div class="navbar navbar-default" role="navigation">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
-                                class="icon-bar"></span><span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Brand</a>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse navbar-ex1-collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
-                                <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <button type="submit" class="btn btn-default">
-                            Submit</button>
-                        </form>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Link</a></li>
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
-                                <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li><a href="#">Separated link</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Nav</h2>
+                </div>
+                <div class="panel-body">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                    </ul>
                 </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Nav pill
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                    </ul>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Nav pill stack
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                    </ul>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Nav justify
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                    </ul>
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                    </ul>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Nav dropdown
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <span class="caret">
+                        </span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Navbar
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <div class="navbar navbar-default" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+                                    class="icon-bar"></span><span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Brand</a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+                                    <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">
+                                Submit</button>
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Link</a></li>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+                                    <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Breadcrumb
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">List</a></li>
+                        <li class="active">Detail</li>
+                    </ol>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Paging
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <ul class="pagination pagination-sm">
+                        <li class="disabled"><a href="#">&laquo;</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                    <ul class="pagination">
+                        <li class="disabled"><a href="#">&laquo;</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                    <ul class="pagination pagination-lg">
+                        <li class="disabled"><a href="#">&laquo;</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Pager
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <ul class="pager">
+                        <li><a href="#">Previous</a></li>
+                        <li><a href="#">Next</a></li>
+                    </ul>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Pager2
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <ul class="pager">
+                        <li class="previous"><a href="#">Previous</a></li>
+                        <li class="next disabled"><a href="#">Next</a></li>
+                    </ul>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Label
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <h3>
+                        Example heading <span class="label label-default">New</span></h3>
+                    <span class="label label-default">Default</span> <span class="label label-primary">Primary</span>
+                    <span class="label label-success">Success</span> <span class="label label-info">Info</span>
+                    <span class="label label-warning">Warning</span> <span class="label label-danger">Danger</span>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Badge
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <a href="#">Inbox <span class="badge">42</span></a>
+                    <br />
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#"><span class="badge pull-right">42</span> Home </a>
+                        </li>
+                        <li><a href="#"><span class="badge pull-right">2</span> Email </a></li>
+                    </ul>
+                    <br />
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="#"><span class="badge pull-right">42</span> Home </a>
+                        </li>
+                        <li><a href="#"><span class="badge pull-right">2</span> Email </a></li>
+                    </ul>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        Alert
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <div class="alert alert-success">
+                        <strong>Success</strong>!!!</div>
+                    <div class="alert alert-info">
+                        <strong>Info</strong>!!!</div>
+                    <div class="alert alert-warning">
+                        <strong>Warning</strong>!!!</div>
+                    <div class="alert alert-danger">
+                        <strong>Danger</strong>!!!</div>
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
-            <div class="col-md-6">
-                <h2>
-                </h2>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
             </div>
-            <!--/.col-md-6-->
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                    </h2>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <!--/.panel panel-default-->
         </div>
-        <hr />
-        <footer>
-            <div class="container">
-                <p>
-                    @Henry's company
-                </p>
-            </div>
-        </footer>
+    </div>
+    <!--/.row-->
+    <hr />
+    <footer> <div class="container"> <p> @Henry's company </p> </div> </footer>
     </div>
     <!--/.container-->
     <script type="text/javascript" src="Scripts/jquery-1.10.2.min.js"></script>
