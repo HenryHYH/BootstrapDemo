@@ -51,6 +51,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap3\css\bootstrap-ie7.css" />
     <Content Include="bootstrap3\css\bootstrap-theme.css" />
     <Content Include="bootstrap3\css\bootstrap-theme.min.css" />
     <Content Include="bootstrap3\css\bootstrap.css" />
